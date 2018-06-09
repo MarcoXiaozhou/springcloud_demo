@@ -83,6 +83,8 @@ spring cloud 服务发现与注册
 
 再次：启动一个服务注册中心，添加@EnableEurekaServer 关键字，这个注解需要在springboot工程的启动application类上加：
 
+
+
 @EnableEurekaServer
 @SpringBootApplication
 public class EurekaServerApplication {
